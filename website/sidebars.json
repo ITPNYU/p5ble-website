@@ -2,7 +2,8 @@
   "docs": {
     "Examples": [
       "quick-start",
-      "read-one-char-callback"
+      "read-one-char-callback",
+      "write-one-char-callback"
     ]
   }
 }

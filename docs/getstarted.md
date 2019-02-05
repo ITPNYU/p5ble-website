@@ -12,14 +12,14 @@ p5.ble.js is inspired by [p5.serialport](https://github.com/vanevery/p5.serialpo
 
 ## Usage
 
-Download the [minified](https://unpkg.com/p5ble@latest/dist/p5.ble.min.js), or use the online version and add it to the head section of your HTML document:
+Download the [minified](https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js), or use the online version and add it to the head section of your HTML document:
 
 ```javascript
 <script src="p5.ble.min.js" type="text/javascript"></script>
 ```
 or 
 ```javascript
-<script src="https://unpkg.com/p5ble@latest/dist/p5.ble.min.js" type="text/javascript"></script>
+<script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
 ```
 
 ```html
@@ -29,7 +29,7 @@ or
       <title>Getting Started with p5.ble.js</title>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
-      <script src="https://unpkg.com/p5ble@latest/dist/p5.ble.min.js"></script>
+      <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js"></script>
     </head>
 
     <body>
@@ -55,7 +55,7 @@ Let's add something more to connect to a BLE device and read from one characteri
       <title>Getting Started with p5.ble.js</title>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
       <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
-      <script src="https://unpkg.com/p5ble@latest/dist/p5.ble.min.js"></script>
+      <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js"></script>
     </head>
 
     <body>
