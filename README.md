@@ -1,6 +1,6 @@
 # p5ble Website
 
-Live: [https://yining1023.github.io/p5ble-website](https://yining1023.github.io/p5ble-website)
+Live: [https://ITPNYU.github.io/p5ble-website](https://ITPNYU.github.io/p5ble-website)
 
 This website is built with [Docusaurus](https://docusaurus.io/).
 

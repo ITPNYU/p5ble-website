@@ -55,10 +55,10 @@ class Footer extends React.Component {
           </div>
           <div>
             <h5>More</h5>
-            <a href="https://github.com/yining1023/p5.ble.js/blob/master/CONTRIBUTING.md">Contribute</a>
+            <a href="https://github.com/ITPNYU/p5.ble.js/blob/master/CONTRIBUTING.md">Contribute</a>
             <a
               className="github-button"
-              href={this.props.config.repoUrl}
+              href="https://github.com/ITPNYU/p5.ble.js.git"
               data-icon="octicon-star"
               data-count-href="/facebook/docusaurus/stargazers"
               data-show-count="true"

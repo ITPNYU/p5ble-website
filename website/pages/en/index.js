@@ -167,7 +167,7 @@ class Index extends React.Component {
             title: 'Features',
           },
           {
-            content: 'The library is supported by code examples, tutorials that cover many popular Bluetooth LE devices. p5.ble.js by [p5.serialport](https://github.com/vanevery/p5.serialport), [p5.js](https://p5js.org/), [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API), and [Processing Serial Library](https://processing.org/reference/libraries/serial/index.html).',
+            content: 'The library is supported by code examples, tutorials that cover many popular Bluetooth LE devices. p5.ble.js is inspired by [p5.serialport](https://github.com/vanevery/p5.serialport), [p5.js](https://p5js.org/), [Web Bluetooth API](https://developer.mozilla.org/en-US/docs/Web/API/Web_Bluetooth_API), and [Processing Serial Library](https://processing.org/reference/libraries/serial/index.html).',
             title: 'More',
           }
         ]}

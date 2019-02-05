@@ -16,7 +16,7 @@ If you wish to help develop the website, first you'll need to install the necess
 
 Clone this repo and
 ```
-git clone https://github.com/yining1023/p5ble-website.git
+git clone https://github.com/ITPNYU/p5ble-website.git
 cd p5ble-website
 cd website/
 npm install

@@ -11,11 +11,11 @@
 // List of projects/orgs using your project for the users page.
 const users = [
   {
-    caption: 'User1',
+    caption: 'ITPNYU',
     // You will need to prepend the image path with your baseUrl
     // if it is not '/', like: '/test-site/img/docusaurus.svg'.
     // image: '/img/docusaurus.svg',
-    infoLink: 'https://yining1023.github.io',
+    infoLink: 'https://ITPNYU.github.io',
     pinned: true,
   },
 ];
@@ -23,7 +23,7 @@ const users = [
 const siteConfig = {
   title: 'p5.ble.js', // Title for your website.
   tagline: 'A Javascript library that enables communication between BLE devices and p5 sketches.',
-  url: 'https://yining1023.github.io', // Your website URL
+  url: 'https://ITPNYU.github.io', // Your website URL
   baseUrl: '/p5ble-website/',
   // For github.io type URLs, you would set the url and baseUrl like:
   //   url: 'https://facebook.github.io',
@@ -31,7 +31,7 @@ const siteConfig = {
 
   // Used for publishing and more
   projectName: 'p5ble-website',
-  organizationName: 'yining1023',
+  organizationName: 'ITPNYU',
   // For top-level user or org sites, the organization is still the same.
   // e.g., for the https://JoelMarcey.github.io site, it would be set like...
   //   organizationName: 'JoelMarcey'
@@ -41,7 +41,7 @@ const siteConfig = {
     {doc: 'getstarted', label: 'Get Started'},
     {doc: 'api', label: 'API'},
     {doc: 'quick-start', label: 'Examples'},
-    {href: 'https://github.com/yining1023/p5.ble.js', label: 'Code'},
+    {href: 'https://github.com/ITPNYU/p5.ble.js', label: 'Code'},
     {blog: true, label: 'Tutorials'},
   ],
 
@@ -101,7 +101,7 @@ const siteConfig = {
 
   // You may provide arbitrary config keys to be used as needed by your
   // template. For example, if you need your repo's URL...
-  repoUrl: 'https://github.com/yining1023/p5ble-website.git',
+  repoUrl: 'https://github.com/ITPNYU/p5ble-website.git',
 };
 
 module.exports = siteConfig;
