@@ -2,8 +2,10 @@
   "docs": {
     "Examples": [
       "quick-start",
+      "connect-disconnect",
       "read-one-char-callback",
-      "write-one-char-callback"
+      "write-one-char-callback",
+      "start-stop-notifications"
     ]
   }
 }

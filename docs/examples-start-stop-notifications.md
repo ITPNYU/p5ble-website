@@ -1,21 +1,24 @@
 ---
-id: read-one-char-callback
-title: Read from one characteristic
-sidebar_label: Read from one Characteristic
+id: start-stop-notifications
+title: Start and Stop Notifications
+sidebar_label: Start and Stop Notifications
 ---
 
 ## Demo
 
 <div class="example">
-  <h1>Read from one characteristic using p5.ble.js with callbacks</h1>
+  <h1>Start/stop notifications of a BLE device using p5.ble.js</h1>
   <div id="canvasContainer"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/addons/p5.dom.min.js"></script>
 <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
-<script src="assets/scripts/example-read-one-char-callback.js"></script>
+<script src="assets/scripts/example-start-stop-notifications.js"></script>
 
-## Code
+## Arduino Code
+Arduino Code can be found [here](https://github.com/ITPNYU/p5-ble-examples/tree/master/start-stop-notifications/arduino-sketches).
+
+## p5 Code
 
 ```javascript
 // The serviceUuid must match the serviceUuid of the device you would like to connect
@@ -32,12 +35,16 @@ function setup() {
   textSize(20);
   textAlign(CENTER, CENTER);
 
-  // Create a 'Connect' button
-  const connectButton = createButton('Connect')
-  connectButton.mousePressed(connectToBle);
+  // Create a 'Connect and Start Notifications' button
+  const connectButton = createButton('Connect and Start Notifications')
+  connectButton.mousePressed(connectAndStartNotify);
+
+  // Create a 'Stop Notifications' button
+  const stopButton = createButton('Stop Notifications')
+  stopButton.mousePressed(stopNotifications);
 }
 
-function connectToBle() {
+function connectAndStartNotify() {
   // Connect to a device by passing the service UUID
   myBLE.connect(serviceUuid, gotCharacteristics);
 }
@@ -47,20 +54,23 @@ function gotCharacteristics(error, characteristics) {
   if (error) console.log('error: ', error);
   console.log('characteristics: ', characteristics);
   myCharacteristic = characteristics[0];
-  // Read the value of the first characteristic
-  myBLE.read(myCharacteristic, gotValue);
-}
-
-// A function that will be called once got values
-function gotValue(error, value) {
-  if (error) console.log('error: ', error);
-  console.log('value: ', value);
-  myValue = value;
-  // After getting a value, call p5ble.read() again to get the value again
-  myBLE.read(myCharacteristic, gotValue);
+  // Start notifications on the first characteristic by passing the characteristic
+  // And a callback function to handle notifications
+  myBLE.startNotifications(myCharacteristic, handleNotifications);
   // You can also pass in the dataType
   // Options: 'unit8', 'uint16', 'uint32', 'int8', 'int16', 'int32', 'float32', 'float64', 'string'
-  // myBLE.read(myCharacteristic, 'string', gotValue);
+  // myBLE.startNotifications(myCharacteristic, handleNotifications, 'string');
+}
+
+// A function that will be called once got characteristics
+function handleNotifications(data) {
+  console.log('data: ', data);
+  myValue = data;
+}
+
+// A function to stop notifications
+function stopNotifications() {
+  myBLE.stopNotifications(myCharacteristic);
 }
 
 function draw() {

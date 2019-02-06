@@ -8,7 +8,7 @@ Here you will find a collection of interactive examples using p5ble.js.
 
 You can find the source for all of the examples at the [p5-ble-examples](https://github.com/ITPNYU/p5-ble-examples) repository.
 
-If you need to run the examples offline you can download [p5ble library](https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js).
+If you need to run the examples offline you can download [p5.ble.js](https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js) library.
 
 The url for the p5ble.js library to copy into an index.html file is:
 

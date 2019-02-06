@@ -15,7 +15,10 @@ sidebar_label: Write to one Characteristic
 <script src="https://unpkg.com/p5ble@0.0.4/dist/p5.ble.js" type="text/javascript"></script>
 <script src="assets/scripts/example-write-one-char-callback.js"></script>
 
-## Code
+## Arduino Code
+Arduino Code can be found [here](https://github.com/ITPNYU/p5-ble-examples/tree/master/write-one-char/arduino-sketches/write-one-char-ArduinoBLE).
+
+## p5 Code
 
 ```javascript
 // The serviceUuid must match the serviceUuid of the device you would like to connect
