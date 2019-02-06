@@ -2,17 +2,17 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://ITPNYU.github.io/p5ble-website/blog</id>
     <title>p5.ble.js Blog</title>
-    <updated>2016-03-11T06:00:00Z</updated>
+    <updated>2019-03-01T06:00:00Z</updated>
     <generator>Feed for Node.js</generator>
     <link rel="alternate" href="https://ITPNYU.github.io/p5ble-website/blog"/>
     <subtitle>The best place to stay up-to-date with the latest p5.ble.js news and events.</subtitle>
     <logo>https://ITPNYU.github.io/p5ble-website/undefined</logo>
     <entry>
         <title type="html"><![CDATA[Turtorial]]></title>
-        <id>https://ITPNYU.github.io/p5ble-website/blog/2016/03/11/blog-post.html</id>
-        <link href="https://ITPNYU.github.io/p5ble-website/blog/2016/03/11/blog-post.html">
+        <id>https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html</id>
+        <link href="https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html">
         </link>
-        <updated>2016-03-11T06:00:00Z</updated>
+        <updated>2019-03-01T06:00:00Z</updated>
         <summary type="html"><![CDATA[<p>Turtorial coming soon!</p>
 ]]></summary>
         <author>

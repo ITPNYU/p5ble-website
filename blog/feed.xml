@@ -4,7 +4,7 @@
         <title>p5.ble.js Blog</title>
         <link>https://ITPNYU.github.io/p5ble-website/blog</link>
         <description>The best place to stay up-to-date with the latest p5.ble.js news and events.</description>
-        <lastBuildDate>Fri, 11 Mar 2016 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Fri, 01 Mar 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -14,9 +14,9 @@
         </image>
         <item>
             <title><![CDATA[Turtorial]]></title>
-            <link>https://ITPNYU.github.io/p5ble-website/blog/2016/03/11/blog-post.html</link>
-            <guid>https://ITPNYU.github.io/p5ble-website/blog/2016/03/11/blog-post.html</guid>
-            <pubDate>Fri, 11 Mar 2016 06:00:00 GMT</pubDate>
+            <link>https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html</link>
+            <guid>https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html</guid>
+            <pubDate>Fri, 01 Mar 2019 06:00:00 GMT</pubDate>
             <description><![CDATA[<p>Turtorial coming soon!</p>
 ]]></description>
         </item>

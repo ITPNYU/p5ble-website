@@ -13,18 +13,24 @@ function setup() {
   // Create a p5ble class
   myBLE = new p5ble();
 
-  const canvas = createCanvas(200, 200);
-  canvas.parent('canvasContainer');
+  canvas = createCanvas(200, 200);
+  canvas.parent('#canvasContainer');
+
   textSize(20);
   textAlign(CENTER, CENTER);
 
-  // Create a 'Connect' button
-  const connectButton = createButton('Connect')
-  connectButton.mousePressed(connectToBle);
-  connectButton.parent('canvasContainer')
+  // Create a 'Connect and Start Notifications' button
+  const connectButton = createButton('Connect and Start Notifications')
+  connectButton.mousePressed(connectAndStartNotify);
+  connectButton.parent('#canvasContainer');
+
+  // Create a 'Stop Notifications' button
+  const stopButton = createButton('Stop Notifications');
+  stopButton.mousePressed(stopNotifications);
+  stopButton.parent('#canvasContainer');
 }
 
-function connectToBle() {
+function connectAndStartNotify() {
   // Connect to a device by passing the service UUID
   myBLE.connect(serviceUuid, gotCharacteristics);
 }
@@ -34,20 +40,23 @@ function gotCharacteristics(error, characteristics) {
   if (error) console.log('error: ', error);
   console.log('characteristics: ', characteristics);
   myCharacteristic = characteristics[0];
-  // Read the value of the first characteristic
-  myBLE.read(myCharacteristic, gotValue);
-}
-
-// A function that will be called once got values
-function gotValue(error, value) {
-  if (error) console.log('error: ', error);
-  console.log('value: ', value);
-  myValue = value;
-  // After getting a value, call p5ble.read() again to get the value again
-  myBLE.read(myCharacteristic, gotValue);
+  // Start notifications on the first characteristic by passing the characteristic
+  // And a callback function to handle notifications
+  myBLE.startNotifications(myCharacteristic, handleNotifications);
   // You can also pass in the dataType
   // Options: 'unit8', 'uint16', 'uint32', 'int8', 'int16', 'int32', 'float32', 'float64', 'string'
-  // myBLE.read(myCharacteristic, 'string', gotValue);
+  // myBLE.startNotifications(myCharacteristic, handleNotifications, 'string');
+}
+
+// A function that will be called once got characteristics
+function handleNotifications(data) {
+  console.log('data: ', data);
+  myValue = data;
+}
+
+// A function to stop notifications
+function stopNotifications() {
+  myBLE.stopNotifications(myCharacteristic);
 }
 
 function draw() {
