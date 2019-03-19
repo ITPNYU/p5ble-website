@@ -175,12 +175,12 @@ class Index extends React.Component {
     );
 
     const LearnHow = () => (
-      <a href="/docs/example1">
+      <a href={`${this.props.config.baseUrl}docs/quick-start`}>
         <Block>
         {[
           {
             content: 'Checkout Out all the examples and tutorials!',
-            image: `${baseUrl}img/Bluetooth-logo.png`,
+            image: `${baseUrl}img/communications.png`,
             imageAlign: 'right',
             title: 'Examples and Tutorials',
           },
