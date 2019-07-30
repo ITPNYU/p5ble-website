@@ -4,7 +4,7 @@
         <title>p5.ble.js Blog</title>
         <link>https://ITPNYU.github.io/p5ble-website/blog</link>
         <description>The best place to stay up-to-date with the latest p5.ble.js news and events.</description>
-        <lastBuildDate>Fri, 01 Mar 2019 06:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Thu, 25 Jul 2019 06:00:00 GMT</lastBuildDate>
         <docs>http://blogs.law.harvard.edu/tech/rss</docs>
         <generator>Feed for Node.js</generator>
         <image>
@@ -13,11 +13,37 @@
             <link>https://ITPNYU.github.io/p5ble-website/blog</link>
         </image>
         <item>
-            <title><![CDATA[Turtorial]]></title>
-            <link>https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html</link>
-            <guid>https://ITPNYU.github.io/p5ble-website/blog/2019/03/01/blog-post.html</guid>
-            <pubDate>Fri, 01 Mar 2019 06:00:00 GMT</pubDate>
-            <description><![CDATA[<p>Turtorial coming soon!</p>
+            <title><![CDATA[Lab: Bluetooth LE and p5.ble]]></title>
+            <link>https://ITPNYU.github.io/p5ble-website/blog/2019/07/25/blog-post.html</link>
+            <guid>https://ITPNYU.github.io/p5ble-website/blog/2019/07/25/blog-post.html</guid>
+            <pubDate>Thu, 25 Jul 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>Here is a tutorial about Bluetooth LE and p5.ble from ITP Physical Computing class: <a href="https://itp.nyu.edu/physcomp/labs/lab-bluetooth-le-and-p5-ble">https://itp.nyu.edu/physcomp/labs/lab-bluetooth-le-and-p5-ble</a></p>
+<p>In this tutoiral, we will talk about -</p>
+<ul>
+<li>1 Introduction</li>
+<li>2 Bluetooth LE Concepts</li>
+<li>3 Bluetooth LE Central Apps</li>
+<li>4 Program the Arduino</li>
+<li>5 A Central App in p5.ble</li>
+<li>6 Reading and Writing Sensors in p5.ble</li>
+<li>7 Characteristic Data Types</li>
+</ul>
+]]></description>
+        </item>
+        <item>
+            <title><![CDATA[p5 BLE Workshop]]></title>
+            <link>https://ITPNYU.github.io/p5ble-website/blog/2019/06/16/blog-post.html</link>
+            <guid>https://ITPNYU.github.io/p5ble-website/blog/2019/06/16/blog-post.html</guid>
+            <pubDate>Sun, 16 Jun 2019 06:00:00 GMT</pubDate>
+            <description><![CDATA[<p>We had our first <a href="https://itp.nyu.edu/camp2019/session/55">p5 BLE workshop</a> at ITP Camp 2019 this summer!</p>
+<h2><a class="anchor" aria-hidden="true" id="p5blejs-101-bluetooth-communication-between-arduino-and-p5js"></a><a href="#p5blejs-101-bluetooth-communication-between-arduino-and-p5js" aria-hidden="true" class="hash-link"><svg class="hash-link-icon" aria-hidden="true" height="16" version="1.1" viewBox="0 0 16 16" width="16"><path fill-rule="evenodd" d="M4 9h1v1H4c-1.5 0-3-1.69-3-3.5S2.55 3 4 3h4c1.45 0 3 1.69 3 3.5 0 1.41-.91 2.72-2 3.25V8.59c.58-.45 1-1.27 1-2.09C10 5.22 8.98 4 8 4H4c-.98 0-2 1.22-2 2.5S3 9 4 9zm9-3h-1v1h1c1 0 2 1.22 2 2.5S13.98 12 13 12H9c-.98 0-2-1.22-2-2.5 0-.83.42-1.64 1-2.09V6.25c-1.09.53-2 1.84-2 3.25C6 11.31 7.55 13 9 13h4c1.45 0 3-1.69 3-3.5S14.5 6 13 6z"></path></svg></a>p5.ble.js 101: Bluetooth Communication between Arduino and p5.js</h2>
+<p>Check out the <a href="https://docs.google.com/presentation/d/1qkzMBh1A0eyD_W9J3G1VoI08VGDkVDUKFC5-pi1aUbc/edit?usp=sharing">slides</a> to learn more about Bluetooth LE concepts and p5.ble.</p>
+<p>This is a hands-on workshop to get started with <a href="https://itpnyu.github.io/p5ble-website/">p5.ble.js</a>, a library that enables communication between Bluetooth Low Energy (BLE) devices and p5 sketches.</p>
+<p>The in-class example will be using Arduino MKR1010 to interact with a p5.js sketch. Please bring your laptop, an Arduino MKR1010, a micro-USB cable and a breadboard to this workshop. You could check out Arduino MKR1010 from the shop if you don't have one. If you are using a new MacBook, please also bring a USB-C to USB adaptor.</p>
+<p><a href="https://github.com/ITPNYU/p5.ble.js">Github</a></p>
+<p><a href="https://www.uuidgenerator.net/">UUID-Generator</a></p>
+<p><a href="https://editor.p5js.org/jingwen_zhu/sketches/X-Aa-v5wf">p5 web editor dim/switch LEDs</a></p>
+<p><a href="https://editor.p5js.org/jingwen_zhu/sketches/hMzxiIUqj">p5 web editor multiple sensors</a></p>
 ]]></description>
         </item>
     </channel>
