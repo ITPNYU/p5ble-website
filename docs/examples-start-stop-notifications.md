@@ -16,7 +16,7 @@ sidebar_label: Start and Stop Notifications
 <script src="assets/scripts/example-start-stop-notifications.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5-ble-examples/tree/master/start-stop-notifications/arduino-sketches).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/start-stop-notifications/arduino-sketches).
 
 ## p5 Code
 

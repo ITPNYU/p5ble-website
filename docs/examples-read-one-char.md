@@ -16,7 +16,7 @@ sidebar_label: Read from one Characteristic
 <script src="assets/scripts/example-read-one-char-callback.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5-ble-examples/tree/master/read-one-char/arduino-sketches).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/read-one-char/arduino-sketches).
 
 ## p5 Code
 

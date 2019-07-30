@@ -16,7 +16,7 @@ sidebar_label: Write to one Characteristic
 <script src="assets/scripts/example-write-one-char-callback.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5-ble-examples/tree/master/write-one-char/arduino-sketches/write-one-char-ArduinoBLE).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/write-one-char/arduino-sketches/write-one-char-ArduinoBLE).
 
 ## p5 Code
 
