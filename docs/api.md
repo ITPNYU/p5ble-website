@@ -26,8 +26,8 @@ const myOtherBLE = new p5ble();
   ### 4. characteristics, array
 
 ## Methods:
-  ### .connect(service, gotCharacteristics?)
-  Parameters:
+  ### `.connect(service, gotCharacteristics?)`
+  ### Parameters:
   - Service: Service UUID(e.g. `0x1234`, `0x12345678`, `99999999-0000-1000-8000-00805f9b34fb`) or Service Name(e.g. `battery_service`)
   - gotCharacteristics(optional): A callback function, e.g.
   ```javascript
@@ -36,37 +36,56 @@ const myOtherBLE = new p5ble();
 
 	Returns characteristics: array
 
-  ### .read(characteristic, dataType?, gotData?)
-  Parameters:
+---
+
+  ### `.read(characteristic, dataType?, gotData?)`
+  ### Parameters:
   - characteristic: The characteristic UUID that you want to read
-  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`
+  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
   - gotData(optional): A callback function, e.g.
   ```javascript
   (err, data) => { console.log(data) }
   ```
 	Returns data
 
-  ### .write(characteristic, data)
+  #### A note about `dataType` parameter
+  By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
+
+---
+
+  ### `.write(characteristic, data)`
   ### Parameters:
   - characteristic: The characteristic you want to write to
   - data: String
 
-  ### .startNotifications(characteristic, handleNotifications, dataType?)
+---
+
+  ### `.startNotifications(characteristic, handleNotifications, dataType?)`
   ### Parameters:
   - characteristic: The characteristic you want to start notification
   - handleNotifications: A callback function, e.g. (data) => { console.log(data) }
-  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`
+  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
+  #### A note about `dataType` parameter
+  By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
 
-  ### .stopNotifications(characteristic)
+---
+
+  ### `.stopNotifications(characteristic)`
   ### Parameters:
   - characteristic: The characteristic you want to stop notification 
 
-  ### .disconnect()
+---
 
-  ### onDisconnected(handleDisconnected)
+  ### `.disconnect()`
+
+---
+
+  ### `.onDisconnected(handleDisconnected)`
   ### Parameters:
   - handleDisconnected: A callback function, e.g. (device) => { console.log('Device ' + device.name + ' is disconnected.'); }
 
-  ### .isConnected()
+---
+
+  ### `.isConnected()`
   returns a `Boolean`
 
