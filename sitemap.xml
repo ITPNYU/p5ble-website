@@ -3,6 +3,7 @@
 <url> <loc>https://ITPNYU.github.io/p5ble-website/help</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ITPNYU.github.io/p5ble-website/en/help" /> </url>
 <url> <loc>https://ITPNYU.github.io/p5ble-website/index</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ITPNYU.github.io/p5ble-website/en/index" /> </url>
 <url> <loc>https://ITPNYU.github.io/p5ble-website/users</loc> <changefreq>weekly</changefreq> <priority>0.5</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ITPNYU.github.io/p5ble-website/en/users" /> </url>
+<url> <loc>https://ITPNYU.github.io/p5ble-website/blog/2019/10/19/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://ITPNYU.github.io/p5ble-website/blog/2019/07/25/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://ITPNYU.github.io/p5ble-website/blog/2019/06/16/blog-post</loc> <changefreq>weekly</changefreq> <priority>0.3</priority> </url>
 <url> <loc>https://ITPNYU.github.io/p5ble-website/docs/api</loc> <changefreq>hourly</changefreq> <priority>1.0</priority> <xhtml:link rel="alternate" hreflang="en" href="https://ITPNYU.github.io/p5ble-website/docs/api" /> </url>
