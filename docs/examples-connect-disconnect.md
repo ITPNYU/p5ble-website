@@ -16,7 +16,7 @@ sidebar_label: Connect and Disconnect
 <script src="assets/scripts/example-connect-disconnect.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/connect-disconnect/arduino-sketches).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/connectDisconnect/arduino-sketches).
 
 ## p5 Code
 
