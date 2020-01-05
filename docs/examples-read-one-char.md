@@ -28,6 +28,7 @@ let myValue = 0;
 let myBLE;
 
 function setup() {
+  colorMode(HSB, 255);
   // Create a p5ble class
   myBLE = new p5ble();
 
@@ -67,9 +68,11 @@ function gotValue(error, value) {
 }
 
 function draw() {
-  background(250);
-  // Write value on the canvas
-  text(myValue, 100, 100);
+  if(myValue || myValue === 0){
+    background(myValue, 255, 255);
+    // Write value on the canvas
+    text(myValue, 100, 100);
+  }
 }
 ```
 
