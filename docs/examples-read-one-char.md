@@ -73,4 +73,4 @@ function draw() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5-ble-examples/tree/master/read-one-char/p5-sketch/callback)
+## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/read-one-char/p5-sketch/callback)

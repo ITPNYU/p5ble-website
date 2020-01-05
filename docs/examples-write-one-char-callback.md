@@ -61,4 +61,4 @@ function writeToBle() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5-ble-examples/tree/master/write-one-char/p5-sketch)
+## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/write-one-char)
