@@ -4,10 +4,10 @@ title: Read from one characteristic
 sidebar_label: Read from one Characteristic
 ---
 
-## Demo
+## Live Demo
 
 <div class="example">
-  <h1>Read from one characteristic using p5.ble.js with callbacks</h1>
+  <p>Read from one characteristic using p5.ble.js with callbacks</p>
   <div id="canvasContainer"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -73,4 +73,15 @@ function draw() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/read-one-char/p5-sketch/callback)
+## [p5 Code Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/readOneChar/p5-sketch/callback)
+
+## Demo Video
+#### Read button value from Arduino Nano 33 BLE  board in a p5 sketch:
+<img src="assets/demo/readone-btn.gif" />
+
+#### Read potentiometer value from Arduino Nano 33 BLE  board in a p5 sketch:
+<img src="assets/demo/readone-potentiometer.gif" />
+
+## Try it in p5 Web Editor
+- [Read one Characteristic - Button](https://editor.p5js.org/jingwen_zhu/sketches/RLGXVkEN_)
+- [Read one Characteristic - Potentiometer](https://editor.p5js.org/jingwen_zhu/sketches/-sjh-ZLSS)

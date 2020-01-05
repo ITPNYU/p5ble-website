@@ -7,7 +7,7 @@ sidebar_label: Start and Stop Notifications
 ## Demo
 
 <div class="example">
-  <h1>Start/stop notifications of a BLE device using p5.ble.js</h1>
+  <p>Start/stop notifications of a BLE device using p5.ble.js</p>
   <div id="canvasContainer"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -16,7 +16,7 @@ sidebar_label: Start and Stop Notifications
 <script src="assets/scripts/example-start-stop-notifications.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/start-stop-notifications/arduino-sketches).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/startStopNotifications/arduino-sketches).
 
 ## p5 Code
 
@@ -80,4 +80,4 @@ function draw() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/start-stop-notifications/p5-sketch)
+## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/startStopNotifications/p5-sketch)

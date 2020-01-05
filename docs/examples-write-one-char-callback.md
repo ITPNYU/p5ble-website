@@ -4,10 +4,10 @@ title: Write to one characteristic
 sidebar_label: Write to one Characteristic
 ---
 
-## Demo
+## Live Demo
 
 <div class="example">
-  <h1>Write 1 or 0 to one characteristic with p5.ble.js</h1>
+  <p>Write 1 or 0 to one characteristic with p5.ble.js</p>
   <div id="container"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -16,7 +16,7 @@ sidebar_label: Write to one Characteristic
 <script src="assets/scripts/example-write-one-char-callback.js"></script>
 
 ## Arduino Code
-Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/write-one-char/arduino-sketches/write-one-char-ArduinoBLE).
+Arduino Code can be found [here](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/writeOneChar/arduino-sketches/write-one-char-ArduinoBLE).
 
 ## p5 Code
 
@@ -61,4 +61,9 @@ function writeToBle() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/write-one-char)
+## [p5 code Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/writeOneChar/p5-sketch)
+
+## Demo Video
+<img src="assets/demo/write.gif" />
+
+## [Try it in p5 Web Editor](https://editor.p5js.org/jingwen_zhu/sketches/WJn9qDL79)

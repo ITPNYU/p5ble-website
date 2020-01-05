@@ -4,10 +4,10 @@ title: Connect and Disconnect
 sidebar_label: Connect and Disconnect
 ---
 
-## Demo
+## Live Demo
 
 <div class="example">
-  <h1>Connect, Disconnect, OnDisconnect to a BLE device using p5.ble.js</h1>
+  <p>Connect, Disconnect, OnDisconnect to a BLE device using p5.ble.js</p>
   <div id="canvasContainer"></div>
 </div>
 <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/0.7.2/p5.js"></script>
@@ -83,4 +83,9 @@ function draw() {
 }
 ```
 
-## [Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/connect-disconnect/p5-sketch)
+## [p5 code Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/connectDisconnect/p5-sketch)
+
+## Demo Video
+<img src="assets/demo/connect.gif" />
+
+## [Try it in p5 Web Editor](https://editor.p5js.org/jingwen_zhu/sketches/R3-iiTn8H)
