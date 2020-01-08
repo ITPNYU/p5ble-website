@@ -79,11 +79,17 @@ function draw() {
 ## [p5 Code Source](https://github.com/ITPNYU/p5.ble.js/tree/master/examples/readOneChar/p5-sketch/callback)
 
 ## Demo Video
-#### Read button value from Arduino Nano 33 BLE  board in a p5 sketch:
+#### 1. Read button value from Arduino Nano 33 BLE  board in a p5 sketch:
 <img src="assets/demo/readone-btn.gif" />
 
-#### Read potentiometer value from Arduino Nano 33 BLE  board in a p5 sketch:
+Circuit board for Arduino Nano 33 BLE with a button:
+<img src="assets/demo/readone-btn.JPG" />
+
+#### 2. Read potentiometer value from Arduino Nano 33 BLE  board in a p5 sketch:
 <img src="assets/demo/readone-potentiometer.gif" />
+
+Circuit board for Arduino Nano 33 BLE with a potentiometer::
+<img src="assets/demo/readone-potentiometer.JPG" />
 
 ## Try it in p5 Web Editor
 - [Read one Characteristic - Button](https://editor.p5js.org/jingwen_zhu/sketches/RLGXVkEN_)
