@@ -41,15 +41,17 @@ const myOtherBLE = new p5ble();
   ### `.read(characteristic, dataType?, gotData?)`
   ### Parameters:
   - characteristic: The characteristic UUID that you want to read
-  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
+  - dataType (optional): default to `uint8`, options: `custom`, `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
   - gotData(optional): A callback function, e.g.
   ```javascript
   (err, data) => { console.log(data) }
   ```
 	Returns data
 
-  #### A note about `dataType` parameter
-  By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
+  #### Notes about `dataType` parameter
+  - By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
+
+  - If you want to handle data parsing yourself in the `gotData` callback, set `dataType` to `custom`
 
 ---
 
@@ -64,9 +66,12 @@ const myOtherBLE = new p5ble();
   ### Parameters:
   - characteristic: The characteristic you want to start notification
   - handleNotifications: A callback function, e.g. (data) => { console.log(data) }
-  - dataType (optional): default to `uint8`, options: `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
-  #### A note about `dataType` parameter
-  By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
+  - dataType (optional): default to `uint8`, options: `custom`, `uint16`, `uint32`, `string`, `int8`, `int16`, `int32`, `float32`, `float64`, `float32-bigEndian`, `float64-bigEndian`.
+  #### Notes about `dataType` parameter
+  - By default, `float32`, `float64` will read data in  little-endian format. If you pass `float32-bigEndian` or `float64-bigEndian`, p5.ble.js will read data in big-endian format. Read more about [Endianness](https://developer.mozilla.org/en-US/docs/Glossary/Endianness).
+
+  - If you want to handle data parsing yourself in the `handleNotifications` callback, set `dataType` to `custom`
+
 
 ---
 
